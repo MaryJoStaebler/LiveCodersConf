@@ -152,9 +152,10 @@ section {
 	width: 55%;
 }
 
+/*
 .sponsorimg,
 .sponsorimg2 {
-	display: block;
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -172,6 +173,38 @@ section {
 .sponsorimg2 {
 	width: 20%;
 	padding: 5px;
+}
+*/
+
+.sponsor_tier1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: start
+}
+
+.sponsorimg {
+	flex: 0 0 auto;
+	margin: 5px;
+	max-width: 300px;
+}
+
+.sponsor_tier2 {
+	margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: start
+}
+
+.sponsorimg2 {
+	flex: 0 0 auto;
+	margin: 5px;
+	max-width: 200px;
 }
 
 
