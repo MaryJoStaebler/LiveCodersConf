@@ -32,15 +32,18 @@
 	<section class="section-aboutus js--section-aboutus aboutus" id="aboutus">
 		<div class="row clearfix">
 
-			<h1 class="titles">About Us</h1>
+<!-- 			<h1 class="titles">About Us</h1>
 			<div >
 				<a class="banner" href="https://www.twitch.tv/thelivecoders"><img src="imgs/banner.png" alt="Image with conference info"></a>
 				<a href="https://www.twitch.tv/thelivecoders"><img src="imgs/Lcconf.png" id="conf_img"></a>
  			</div>
-
+			<h2> SAVE THE DATE! </h2>  -->
 			
-
-			<h2> SAVE THE DATE! </h2> 
+ 			<div id="twitch-embed">
+ 				
+ 			</div>
+			
+			
 			<h2> April 9, 2020. An online only conference put on by The Live Coders team on <a href="https://www.twitch.tv/TheLiveCoders">Twitch!</a></h2>
 			<p> You may be wondering who we are! We are The Live Coders, an outgoing and enthusiastic group of friendly channels that write code, teach about technology, and promote the technical community.</p> 
 			<p> With conferences everywhere being cancelled or postponed, we didn't want to let prepared talks to go waste and decided to put on a free (all-day) online conference for everyone on <a href="https://www.twitch.tv/TheLiveCoders">Twitch</a>, with talks covering various topics. </p>
@@ -701,5 +704,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.waypoints.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+<script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "TheLiveCoders",
+      });
+    </script>
 </body>
 </html>
