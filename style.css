@@ -96,6 +96,12 @@ body {
 	margin-left: 5px;
 }
 
+/*Twitch embed*/
+#twitch-embed {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
 /*Sections*/
 
