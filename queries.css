@@ -19,9 +19,6 @@
 		margin-right: 16px;
 	}
 
-	.banner {
-		display: none;
-	}
 
 	#conf_img {
 		visibility: visible;
@@ -41,9 +38,6 @@
 		padding: 10px 0;
 	}
 
-	.banner {
-		display: none;
-	}
 
 	#conf_img {
 		visibility: visible;
@@ -115,9 +109,6 @@
 		padding: 10px 0;
 	}
 
-	.banner {
-		display: none;
-	}
 
 	#conf_img {
 		display: block;

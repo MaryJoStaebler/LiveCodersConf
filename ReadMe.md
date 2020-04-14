@@ -1,7 +1,6 @@
 # LiveCodersConf
 
 A website to provide more details on the Twitch-Centered Conference put on by The Live Coders team on Twitch.  
-Updated banner.
 
 ---
 
