@@ -92,7 +92,7 @@ body {
 	height: 100px;
 	width: auto;
 	float: left;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 5px;
 }
 
@@ -119,7 +119,7 @@ section {
 
 /*Images*/
 
-.banner {
+.img {
 	border-radius: 25px;
 	display: block;
 	text-align: center;
@@ -130,16 +130,6 @@ section {
 	padding: 5px;
 }
 
-#conf_img {
-	border-radius: 25px;
-	display: none;
-	text-align: center;
-	max-width: 50%;
-	height: auto;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 5px;
-}
 
 .schedule {
 	display: block;
@@ -158,29 +148,6 @@ section {
 	width: 55%;
 }
 
-/*
-.sponsorimg,
-.sponsorimg2 {
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.sponsorimg {
-	width: 33%;
-}
-
-#grape {
-  	height: auto;
-  	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.sponsorimg2 {
-	width: 20%;
-	padding: 5px;
-}
-*/
 
 .sponsor_tier1 {
   display: flex;
