@@ -20,11 +20,6 @@
 	}
 
 
-	#conf_img {
-		visibility: visible;
-		display: block;
-		
-	}
 
 }
 
@@ -39,12 +34,6 @@
 	}
 
 
-	#conf_img {
-		visibility: visible;
-		display: block;
-		
-	}
-
 	.row {
 		padding: 0 4%;
 	}
@@ -58,7 +47,9 @@
 		display: inline-block;
 	}
 
-
+	.heading {
+		height: 35vh;
+	}
 
 	.main-nav {
 		float: left;
@@ -109,10 +100,8 @@
 		padding: 10px 0;
 	}
 
-
-	#conf_img {
-		display: block;
-		visibility: visible;
+	.heading {
+		height: 35vh;
 	}
 
 }
