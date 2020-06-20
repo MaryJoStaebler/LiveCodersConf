@@ -1,6 +1,8 @@
 // we have to start every jquery file like this:
 
 $(document).ready(function() {
+	//redirect
+	$(location).attr('href','https://atndesign.github.io/Live-coders-conference/');
 
 	// sticky navigation
 	$('.js--section-aboutus').waypoint(function(direction) {
